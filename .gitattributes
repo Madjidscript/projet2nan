@@ -1,0 +1,1 @@
+/c/Users/madjid/Desktop/projet_août/video/*.mp4 filter=lfs diff=lfs merge=lfs -text
