@@ -3,6 +3,9 @@
   margin: 0px;
   box-sizing: border-box;
 }
+p {
+  color: white;
+}
 .section1 {
   width: 100%;
   height: 600px;
@@ -13,16 +16,18 @@
 .section1 .card {
   width: 100%;
   height: 100%;
-  background-image: url(../image/nour.jpg);
-  background-size: cover;
+  background-color: #26a65b;
+  background-image: url(../image/p2.jpeg);
+  background-position: 100%;
+  background-size: contain;
 }
 .container {
   position: relative;
   min-height: 100vh;
-  background-color: aqua;
+  background-color: white;
 }
 .container h1 {
-  color: white;
+  color: #26a65b;
   text-align: center;
   padding: 15px;
   font-size: 40px;
@@ -38,7 +43,7 @@
 .container .video-container .video {
   height: 250px;
   width: 350px;
-  border: 5px solid white;
+  border: 5px solid #26a65b;
   border-radius: 5px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
   cursor: pointer;
@@ -90,12 +95,6 @@
 #click11 {
   display: none;
 }
-#click12 {
-  display: none;
-}
-#click13 {
-  display: none;
-}
 
 .container .popup-video,
 .popup-video1,
@@ -108,9 +107,7 @@
 .popup-video8,
 .popup-video9,
 .popup-video10,
-.popup-video11,
-.popup-video12,
-.popup-video13 {
+.popup-video11 {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -170,14 +167,6 @@
   visibility: visible;
 }
 #click11:checked ~ .popup-video11 {
-  opacity: 1;
-  visibility: visible;
-}
-#click12:checked ~ .popup-video12 {
-  opacity: 1;
-  visibility: visible;
-}
-#click13:checked ~ .popup-video13 {
   opacity: 1;
   visibility: visible;
 }
@@ -284,24 +273,6 @@
   object-fit: cover;
 }
 .container .popup-video11 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
-.container .popup-video12 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
-.container .popup-video13 img {
   position: absolute;
   left: 50%;
   top: 50%;

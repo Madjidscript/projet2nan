@@ -66,6 +66,7 @@ input[type="checkbox"] {
 }
 a.active {
   color: #26a65b;
+  border-bottom: 1px solid #26a65b;
 }
 
 /* APPLYING MEDIA QUERIES */

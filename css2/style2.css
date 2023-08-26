@@ -4,6 +4,17 @@ body {
 .container {
   width: 95%;
 }
+.section2 .titre {
+  font-weight: bold;
+  border-bottom: 3px dashed #26a65b;
+  animation: text 7s ease-in-out 1 forwards;
+}
+@keyframes text {
+  0% {
+    font-weight: 0;
+  }
+}
+
 .section1 {
   width: 100%;
   height: 550px;
@@ -39,7 +50,6 @@ body {
   width: 400px;
   color: white;
 }
-
 @keyframes text {
   0% {
     letter-spacing: 1em;
@@ -138,6 +148,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   color: white;
+  border-radius: 15px;
 }
 .guide .cards .image1 {
   width: 30%;
@@ -176,7 +187,7 @@ body {
   /* background-color: yellow; */
 }
 .info p {
-  font-size: 20px;
+  font-size: 23px;
   margin: 25px auto;
   white-space: wrap;
 }
@@ -205,24 +216,26 @@ body {
   overflow: hidden;
   align-items: center;
   animation: pp 1s linear 0s 2 normal none;
+  justify-content: center;
+  box-shadow: 0.5rem 1rem rgba(71, 209, 71, 0.5);
 }
 .box1 .card1 .icon {
   text-align: center;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding: 30%;
+  width: 20%;
+  height: 20%;
+  margin: 60px auto;
+
+  /* padding: 30%; */
 }
 
 .box1 .card1:hover {
   transform: scale(1.1) !important;
 }
 .box1 .card1 p {
-  /* background-color: red; */
   width: 100px;
   color: white;
   transform: skew(0deg, -0.05turn);
-  margin-top: 2px;
+  margin-top: 5px;
   text-align: center;
 }
 
@@ -235,6 +248,13 @@ body {
   }
   .papa .card1 {
     width: 180px;
+  }
+  .box2 .guide .cards#yes {
+    margin-bottom: 50px;
+  }
+  .box2 .guide .cards {
+    width: 600px;
+    height: 250px;
   }
 }
 
@@ -286,6 +306,10 @@ body {
   .papa {
     margin: 0px auto;
   }
+  .box2 .guide .cards {
+    background-color: #26a65b;
+    color: white;
+  }
 }
 .section2 .box1 p {
   background-color: #26a65b;
@@ -302,8 +326,6 @@ body {
   }
 }
 
-.grid {
-}
 .grid .parent {
   display: flex;
   flex-wrap: wrap;
@@ -325,8 +347,6 @@ body {
   border: 3px solid #26a65b;
 }
 
-.parent a {
-}
 .parent a img {
   height: 100%;
   object-fit: cover;
@@ -334,7 +354,7 @@ body {
   transition: 0.5s;
   animation: animeimg 7s ease-out 1 forwards;
 }
-img:hover {
+.parent a img:hover {
   filter: grayscale(1);
   transform: scale(1.1);
 }

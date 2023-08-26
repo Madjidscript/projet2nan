@@ -152,7 +152,7 @@ body {
     padding: 8% 11%;
   }
   .papa .card1 {
-    width: 180px;
+    width: 250px;
   }
 
   .pop::before {
@@ -173,6 +173,10 @@ body {
   .card p {
     width: 275px;
     font-size: 25px;
+  }
+  .papa .card1 {
+    width: 250px;
+    margin-left: none;
   }
   .card h5 {
     font-size: 17px;
@@ -207,6 +211,7 @@ body {
 }
 .info {
   text-align: center;
+  color: #31af36;
 }
 .section2 {
   display: flex;
@@ -298,6 +303,7 @@ body {
   visibility: hidden;
   opacity: 0;
   transition: 0.4s ease-in-out;
+  color: white;
 }
 .container .content:hover .text {
   opacity: 1;
