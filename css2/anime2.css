@@ -87,15 +87,6 @@ p {
 #click8 {
   display: none;
 }
-#click9 {
-  display: none;
-}
-#click10 {
-  display: none;
-}
-#click11 {
-  display: none;
-}
 
 .container .popup-video,
 .popup-video1,
@@ -105,10 +96,7 @@ p {
 .popup-video5,
 .popup-video6,
 .popup-video7,
-.popup-video8,
-.popup-video9,
-.popup-video10,
-.popup-video11 {
+.popup-video8 {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -159,20 +147,8 @@ p {
   opacity: 1;
   visibility: visible;
 }
-#click9:checked ~ .popup-video9 {
-  opacity: 1;
-  visibility: visible;
-}
-#click10:checked ~ .popup-video10 {
-  opacity: 1;
-  visibility: visible;
-}
-#click11:checked ~ .popup-video11 {
-  opacity: 1;
-  visibility: visible;
-}
 
-.container .popup-video img {
+.container .popup-video video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -181,7 +157,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video1 img {
+.container .popup-video1 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -190,7 +166,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video2 img {
+.container .popup-video2 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -199,7 +175,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video3 img {
+.container .popup-video3 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -208,7 +184,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video4 img {
+.container .popup-video4 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -217,7 +193,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video5 img {
+.container .popup-video5 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -226,7 +202,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video6 img {
+.container .popup-video6 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -236,7 +212,7 @@ p {
   object-fit: cover;
 }
 
-.container .popup-video7 img {
+.container .popup-video7 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -246,34 +222,7 @@ p {
   object-fit: cover;
 }
 
-.container .popup-video8 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
-.container .popup-video9 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
-.container .popup-video10 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
-.container .popup-video11 img {
+.container .popup-video8 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -293,7 +242,7 @@ p {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  .container .popup-video img {
+  .container .popup-video video {
     width: 95%;
   }
 }

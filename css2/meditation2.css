@@ -87,15 +87,7 @@ p {
 #click8 {
   display: none;
 }
-#click9 {
-  display: none;
-}
-#click10 {
-  display: none;
-}
-#click11 {
-  display: none;
-}
+
 
 .container .popup-video,
 .popup-video1,
@@ -105,10 +97,8 @@ p {
 .popup-video5,
 .popup-video6,
 .popup-video7,
-.popup-video8,
-.popup-video9,
-.popup-video10,
-.popup-video11 {
+.popup-video8
+ {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -159,18 +149,7 @@ p {
   opacity: 1;
   visibility: visible;
 }
-#click9:checked ~ .popup-video9 {
-  opacity: 1;
-  visibility: visible;
-}
-#click10:checked ~ .popup-video10 {
-  opacity: 1;
-  visibility: visible;
-}
-#click11:checked ~ .popup-video11 {
-  opacity: 1;
-  visibility: visible;
-}
+
 
 .container .popup-video img {
   position: absolute;
@@ -255,33 +234,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video9 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
-.container .popup-video10 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
-.container .popup-video11 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
+
 
 .yo {
   position: absolute;
