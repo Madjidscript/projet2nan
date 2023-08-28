@@ -139,7 +139,7 @@ p {
   visibility: visible;
 }
 
-.container .popup-video img {
+.container .popup-video video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -148,7 +148,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video1 img {
+.container .popup-video1 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -157,7 +157,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video2 img {
+.container .popup-video2 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -166,7 +166,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video3 img {
+.container .popup-video3 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -175,7 +175,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video4 img {
+.container .popup-video4 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -184,7 +184,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video5 img {
+.container .popup-video5 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -204,7 +204,7 @@ p {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  .container .popup-video img {
+  .container .popup-video video {
     width: 95%;
   }
 }

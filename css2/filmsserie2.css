@@ -156,7 +156,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video1 img {
+.container .popup-video1 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -165,7 +165,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video2 img {
+.container .popup-video2 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -174,7 +174,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video3 img {
+.container .popup-video3 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -183,7 +183,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video4 img {
+.container .popup-video4 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -192,7 +192,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video5 img {
+.container .popup-video5 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -201,17 +201,7 @@ p {
   border: 3px solid white;
   object-fit: cover;
 }
-.container .popup-video6 img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  border: 3px solid white;
-  object-fit: cover;
-}
-
-.container .popup-video7 img {
+.container .popup-video6 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -221,7 +211,17 @@ p {
   object-fit: cover;
 }
 
-.container .popup-video8 img {
+.container .popup-video7 video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.container .popup-video8 video {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -241,7 +241,7 @@ p {
   cursor: pointer;
 }
 @media (max-width: 768px) {
-  .container .popup-video img {
+  .container .popup-video video {
     width: 95%;
   }
 }
