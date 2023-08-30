@@ -39,7 +39,8 @@ body {
 /* LOGO */
 .logo {
   font-size: 32px;
-  color: white;
+  color: #26a65b;
+  font-family: "Shrikhand", cursive;
 }
 /* NAVBAR MENU */
 .menu {

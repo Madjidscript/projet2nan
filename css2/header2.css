@@ -34,7 +34,8 @@ li {
 /* LOGO */
 .logo {
   font-size: 32px;
-  color: white;
+  color: #26a65b;
+  font-family: 'Shrikhand', cursive;
 }
 body {
   background-color: white;
