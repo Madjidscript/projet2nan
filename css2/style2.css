@@ -215,9 +215,15 @@ body {
   display: block;
   overflow: hidden;
   align-items: center;
-  animation: pp 1s linear 0s 2 normal none;
+  animation: pp 5s linear 0s 1 normal none;
   justify-content: center;
   box-shadow: 0.5rem 1rem rgba(71, 209, 71, 0.5);
+}
+
+@keyframes pp {
+  0% {
+    height: 0;
+  }
 }
 .box1 .card1 .icon {
   text-align: center;
@@ -315,17 +321,6 @@ body {
   background-color: #26a65b;
 }
 
-@keyframes pp {
-  0% {
-    transform: rotate(-540deg) scale(0);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(0) scale(1);
-    opacity: 1;
-  }
-}
-
 .grid .parent {
   display: flex;
   flex-wrap: wrap;
@@ -366,7 +361,7 @@ body {
   font-weight: bold;
 }
 
-@keyframes animeimg {
+@keyframes animevideo {
   0% {
     height: 0;
   }

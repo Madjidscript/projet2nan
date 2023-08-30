@@ -81,6 +81,7 @@ a.active {
     left: 0;
     text-align: center;
     padding: 16px 0;
+
     z-index: 1;
   }
 
