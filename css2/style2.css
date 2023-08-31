@@ -6,7 +6,7 @@ body {
 }
 .section2 .titre {
   font-weight: bold;
-  border-bottom: 3px dashed #26a65b;
+
   animation: text 7s ease-in-out 1 forwards;
 }
 @keyframes text {
