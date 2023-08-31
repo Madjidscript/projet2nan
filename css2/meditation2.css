@@ -89,7 +89,6 @@ p {
   display: none;
 }
 
-
 .container .popup-video,
 .popup-video1,
 .popup-video2,
@@ -98,8 +97,7 @@ p {
 .popup-video5,
 .popup-video6,
 .popup-video7,
-.popup-video8
- {
+.popup-video8 {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -151,13 +149,12 @@ p {
   visibility: visible;
 }
 
-
 .container .popup-video video {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
@@ -166,7 +163,7 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
@@ -175,7 +172,7 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
@@ -184,7 +181,7 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
@@ -193,7 +190,7 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
@@ -202,7 +199,7 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
@@ -211,7 +208,7 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
@@ -221,7 +218,7 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
@@ -231,11 +228,10 @@ p {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 69%;
   border: 3px solid white;
   object-fit: cover;
 }
-
 
 .yo {
   position: absolute;
